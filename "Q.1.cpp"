@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+float cm;
+cout << "distance in a cm";
+cin >> cm;
+cout << "the equivalent distance in m" << cm/100 << "the equilivalent distance in km" << cm/100000;
+return 0;
+}
