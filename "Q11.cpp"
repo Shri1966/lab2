@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{
+int a, b, c, i;
+cout << "enter principle";
+cin >> a;
+cout << "enter rate";
+cin >> b;
+cout << "time";
+cin >> c;
+i=(a*b*c)/100;
+cout << "simple interest" <<i;
+return 0;
+}
