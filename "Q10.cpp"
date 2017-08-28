@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{
+int a, b, c, d, e, total, avg, per;
+cout << "integer a";
+cin >> a;
+cout << "integer b";
+cin >> b;
+cout << "integer c";
+cin >> c;
+cout << "integer d";
+cin >> d;
+cout << "integer e";
+cin >> e;
+total=a+b+c+d+e;
+avg=(a=b+c+d+e)/5;
+per=((a+b+c+d+e)/500)*100;
+cout << "total marks" << total << "average marks" << avg << "percentage" << per;
+return 0;
+}
