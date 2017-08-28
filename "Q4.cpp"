@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+int d, w, y;
+cout << "enter no of days";
+cin >> d;
+y=d/365;
+w=d/7;
+cout << "in years" << y << "in weeks" << w;
+return 0;
+}
