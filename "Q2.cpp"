@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+float cel, far;
+cout << "temperature in  celsius";
+cin >> cel;
+far=(((double)9/5)*cel)+32;
+cout << "temperature in fahrenheit" << far;
+return 0;
+}
